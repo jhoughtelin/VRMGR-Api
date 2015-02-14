@@ -1,0 +1,21 @@
+{
+  "name": "gueststream/vrmgr",
+  "type": "library",
+  "description": "A PHP wrapper for VRMGR's API",
+  "keywords": ["gueststream", "vrp", "api", "VRMGR", "Virtual Resort Manager"],
+  "homepage": "http://github.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josh Houghtelin",
+      "email": "josh@findsomehelp.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": { "Gueststream\\VRP\\PropertyManagementSoftware\\": "src/"}
+  }
+}
